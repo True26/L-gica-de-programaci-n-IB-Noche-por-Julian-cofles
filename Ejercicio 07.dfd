@@ -1,0 +1,87 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+405
+Haz un software donde se inserte la edad del hijo y la hija en el presente, después que inserte cuantos años tendrá su hijo e hija en x años(futuro), mostrar cual será la edad del niño según los años insertados y también cual será la de la niña. Después mostrar la diferencia de edad en años a futuro si el niño será mayor que la niña y la niña será mayor que el niño o si los dos tendrán la misma edad.  
+4
+1
+28
+'inserte la edad de su hijo'
+5
+1
+2
+e1
+4
+1
+28
+'inserte la edad de su hija'
+5
+1
+2
+e2
+4
+1
+54
+'inserte cuantos años tendra su hijo y hija en x años'
+5
+1
+1
+a
+6
+2
+4
+hijo
+4
+e1+a
+4
+hija
+6
+e2 + a
+4
+1
+40
+'su niño tendra: ',hijo,' en ',a,' años'
+4
+1
+40
+'su niña tendra: ',hija,' en ',a,' años'
+6
+2
+4
+dife
+9
+hijo-hija
+5
+dife2
+9
+hija-hijo
+7
+0
+1
+38
+hijo>hija or (hijo=hija and hija=hijo)
+4
+1
+67
+'la niña será mayor que el niño por una diferencia de edad: ',dife2
+13
+7
+0
+1
+25
+(hijo=hija and hija=hijo)
+4
+1
+66
+'el niño será mayor que la niña por una diferencia de edad: ',dife
+13
+4
+1
+53
+'el niño y la niña tendran la misma edad edad: ',hijo
+13
+13
+1

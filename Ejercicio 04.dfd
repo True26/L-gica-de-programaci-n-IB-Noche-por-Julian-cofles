@@ -1,0 +1,202 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+1445
+Haz un software para los usuarios de Bancolombia que van a retirar dinero donde informe que hay pico y cédula, las cédulas terminadas en impar tendrán que esperar 10 segundos para poder retirar. En el caso del usuario X dice que tiene 800000 de saldo haz que el software pida la edad y que inserte su código (cedula). Después de haber insertado los datos antes dichos comprobar que la cedula sea par o impar, si es par no tendrá que esperar los 10 seg por lo que debe pedir que inserte el valor que quiere retirar de su cuenta Bancolombia si el valor que va a retirar es mayor del saldo en la cuenta mostrar, saldo en su cuenta es insuficiente. Si el valor que va a retirar es acuerdo al saldo de la cuenta mostrar cuanto ha retirado y cuanto le queda en la cuenta. Por otra parte si la edad del usuario es igual a 60 años recibirá un bono del adulto mayor de 300000. Entonces, mostrar cuanto retiro y el valor del bono que recibió además de cuanto le queda de saldo en su cuenta. Qué pasa si la cédula es impar, pues tendrá que esperar 10 segundo y podrá retirar y aplica las mismas condiciones ya antes dichas: inserte el valor a retirar y si el valor a retirar es mayor al saldo mostrar que es insuficiente, Si el valor que va a retirar es acuerdo al saldo de la cuenta mostrar cuanto ha retirado y cuanto le queda en la cuenta. Además de la condición de si la edad del usuario es igual a 60 años recibirá un bono del adulto mayor de 300000. 
+4
+1
+122
+'informamos que hoy hay pico y cédula, las cédulas terminadas en impar tendran que esperar 10 segundos para poder retirar'
+6
+1
+1
+s
+6
+800000
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+4
+1
+28
+'inserte su código (CEDULA)'
+5
+1
+1
+c
+7
+0
+1
+9
+c mod 2=0
+4
+1
+101
+'estimado usuario su cedula es impar por lo tanto debe esperar 10 segundos y podra retirar su dinero'
+4
+1
+5
+'1sg'
+4
+1
+5
+'2sg'
+4
+1
+5
+'3sg'
+4
+1
+5
+'4sg'
+4
+1
+5
+'5sg'
+4
+1
+5
+'6sg'
+4
+1
+5
+'7sg'
+4
+1
+5
+'8sg'
+4
+1
+5
+'9sg'
+4
+1
+6
+'10sg'
+4
+1
+62
+'inserte el valor que quiere retirar de su cuenta Bancolombia'
+5
+1
+2
+vr
+6
+1
+6
+retiro
+4
+s-vr
+7
+0
+1
+17
+ (vr<=s and e=60)
+7
+0
+1
+14
+vr>s and e>=0 
+4
+1
+96
+'usted ha retirado: ',vr,' por lo que en su cuenta Bancolombia tiene ahora: ',retiro,' de saldo'
+13
+4
+1
+122
+'su saldo en su cuenta es insuficiente recuerde que su saldo en su cuenta es de: ',s,' y usted no tiene en su cuenta: ',vr
+13
+13
+6
+2
+4
+reti
+4
+s-vr
+4
+bono
+13
+reti + 300000
+7
+0
+1
+13
+vr>s and e>=0
+4
+1
+58
+'usted ha recibido un bono para el adulto mayor de 300000'
+4
+1
+129
+'usted ha retirado: ',vr,' pero ha recibido un bono de 300000 por lo que en su cuenta Bancolombia tiene ahora: ',bono,' de saldo'
+13
+13
+13
+13
+4
+1
+62
+'inserte el valor que quiere retirar de su cuenta Bancolombia'
+5
+1
+2
+vr
+6
+2
+4
+reti
+4
+s-vr
+4
+bono
+13
+reti + 300000
+7
+0
+1
+17
+ (vr<=s and e=60)
+7
+0
+1
+14
+vr<=s and e>=0
+4
+1
+122
+'su saldo en su cuenta es insuficiente recuerde que su saldo en su cuenta es de: ',s,' y usted no tiene en su cuenta: ',vr
+13
+4
+1
+94
+'usted ha retirado: ',vr,' por lo que en su cuenta Bancolombia tiene ahora: ',reti,' de saldo'
+13
+13
+7
+0
+1
+13
+vr>s and e>=0
+4
+1
+58
+'usted ha recibido un bono para el adulto mayor de 300000'
+4
+1
+129
+'usted ha retirado: ',vr,' pero ha recibido un bono de 300000 por lo que en su cuenta Bancolombia tiene ahora: ',bono,' de saldo'
+13
+13
+13
+13
+1

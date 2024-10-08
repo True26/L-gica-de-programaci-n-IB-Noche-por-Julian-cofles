@@ -1,0 +1,87 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+573
+Haz un software donde se informe que se encuentra en venta el celular Samsung s21 Fe en 1500000, el usuario debe insertar su edad y presupuesto y si este es mayor o igual a 1500000 su compra será admitida además si la edad del usuario es de 22 años tendrá un descuento del 25% si su presupuesto es suficiente pero su edad no es de 22 años pues se le anexara la compra sin descuento mostrar valor a pagar y cuanto le sobra. Por otra parte, si el presupuesto es insuficiente y sin importar la edad, mostrar saldo insuficiente y cuanto le hace falta para comprar el celular.  
+6
+1
+1
+v
+7
+1500000
+4
+1
+43
+'El valor del Samsung s21 Fe es de 1500000'
+4
+1
+24
+'inserte su presupuesto'
+5
+1
+1
+p
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+7
+0
+1
+22
+p>=v or e>=22 and e<22
+6
+1
+5
+falta
+3
+v-p
+4
+1
+42
+'saldo insuficiente le hace falta: ',falta
+13
+6
+3
+1
+s
+3
+p-v
+6
+descue
+8
+v * 0.25
+1
+t
+8
+v-descue
+6
+1
+2
+s2
+3
+p-t
+7
+0
+1
+21
+p>=v and e<22 or e>22
+4
+1
+112
+'su saldo es suficiente y tendra descuento del 25%, por lo que debe pagar: ',t,' y su saldo restante es de: ',s2
+13
+4
+1
+82
+'su saldo es sufiente, por lo que debe pagar: ',v,' y su saldo restante es de: ',s
+13
+13
+1

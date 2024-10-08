@@ -1,0 +1,97 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+728
+Haz un software que informe que 'una salchipapa vale 35000 pesos' y luego que 'inserte su presupuesto para comprar' e 'inserte su edad' y después informe que 'INFO: si tiene 25 años tendrá un cupón de descuento del 30% en su salchipapa'. Entonces, si su presupuesto es mayor o igual a 35000 y su edad es de 25 tendrá un descuento del 30% mostrar 'saldo suficiente y pago exitoso, tendrá un descuento del 30% en su salchipapa por su edad' además de cuanto le sobra de plata. Si su presupuesto es menor de lo que vale la salchipapa mostrar 'presupuesto insuficiente' además de cuanto le hace falta para comprar la salchipapa. Si su presupuesto es suficiente pero no cumple con la edad de 25 mostrar pago exitoso y cuanto le sobra.
+4
+1
+33
+'una salchipapa vale 35000 pesos'
+4
+1
+37
+'inserte su presupuesto para comprar'
+5
+1
+1
+p
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+4
+1
+78
+'INFO: si tiene 25 años tendra un cupon de descuento del 30% en su salchipapa'
+7
+0
+1
+17
+p>=35000 and e=25
+7
+0
+1
+25
+p>=35000 and e<24 or e>26
+6
+1
+3
+fal
+7
+35000-p
+4
+1
+26
+'presupuesto insuficiente'
+4
+1
+30
+'le hace falta: ',fal,' pesos'
+13
+6
+1
+3
+sob
+7
+p-35000
+4
+1
+30
+'su presupuesto es suficiente'
+4
+1
+38
+'pago exitoso le sobra: ',sob,' pesos'
+13
+13
+4
+1
+91
+'saldo suficiente y pago exitoso, tendra un descuento del 30% en su salchipapa por su edad'
+6
+3
+6
+descue
+11
+35000 * 0.3
+2
+t1
+12
+35000-descue
+5
+sobra
+4
+p-t1
+4
+1
+18
+'le sobra: ',sobra
+13
+1

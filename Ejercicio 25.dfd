@@ -1,0 +1,44 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+524
+Haz un software donde pida que 'inserte cuanto está dispuesto a pagar por la liberación de su familiar' y después le diga que 'puede anexar joyas de valor para liberar a su familiar a esta dirección *****' (inserte la cantidad de joyas), si la cantidad que está dispuesto a pagar es mayor o igual a 1000000 su familiar será liberado y si no tiene esa cantidad pero tiene 10 o más de 10 joyas de valor entonces también se podrá liberar, si no cumple ninguna de las condiciones entonces mostrar que su familiar corre peligro. 
+4
+1
+72
+'inserte cuanto esta dispuesto a pagar por la liberación de su familiar'
+5
+1
+1
+v
+4
+1
+79
+'puede anexar joyas de valor para liberar a su familiar a esta dirección *****'
+5
+1
+1
+j
+7
+1
+1
+19
+v>=1000000 or j>=10
+4
+1
+29
+'su familiar ya fue liberado'
+4
+1
+38
+'y usted fue victima de una estafa ;)'
+13
+4
+1
+27
+'su familiar corre peligro'
+13
+1

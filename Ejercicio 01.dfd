@@ -1,0 +1,165 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+885
+Haz un software donde el usuario inserte su nombre, edad y saldo de su cuenta Movii para hacer una reserva en un restaurante donde se reserva con un costo de 50000 o 100000 y si este reserva con 100000 tendrá descuento del 20% sin importar la edad. Por otra parte, si este reserva con 50000 tendrá descuente del 10% si tiene 22 años, si no tiene la edad requerida no se le incluirá descuento. Por otra parte, si el saldo de su cuenta es menor del costo de reserva en el restaurante, mostrar saldo insuficiente pero si cumple alguna de las otras condiciones mostrar el nombre del usuario y valor total del costo de su reserva a pagar. Además si es el caso de que reserva con un mayor presupuesto del costo estándar (100000 o 50000) sin importar la edad tendrá un descuento del 30% si fue mayor de 100000 o 50000 mostrar nombre del usuario y cuánto debe pagar si cumple esta condición.  
+6
+1
+1
+n
+2
+''
+4
+1
+38
+'inserte su nombre dentro de comillas'
+5
+1
+1
+n
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+4
+1
+18
+'inserte su saldo'
+5
+1
+1
+s
+7
+0
+1
+52
+(s=100000 and e>=22 and e<22) or (s=50000 and e=22) 
+7
+1
+1
+38
+s<100000 or s<50000 and e>=22 and e<22
+7
+1
+1
+25
+s=50000 or e<22 and e>22 
+4
+1
+49
+'anexa reserva pero no incluye descuento del 10%'
+4
+1
+73
+'por lo tanto, estimado usuario: ',n,' el valor total a pagar es de: ',s 
+13
+7
+0
+1
+26
+s>50000 or e>=22 and e<22 
+4
+1
+50
+'estimado usuario: ',n,' su saldo es insuficiente'
+13
+4
+1
+82
+'anexa reserva y adquiere descuento del 30% por reservar mas de el costo de 50000'
+6
+2
+6
+descue
+11
+50000 * 0.3
+2
+t 
+12
+50000-descue
+4
+1
+58
+'estimado usuario: ',n,' el valor total a pagar es de: ',t
+13
+13
+13
+7
+0
+1
+26
+s=100000 or e>22 and e<=22
+7
+0
+1
+25
+s>100000 or e>=22 or e<22
+13
+4
+1
+83
+'anexa reserva y adquiere descuento del 30% por reservar mas de el costo de 100000'
+6
+2
+6
+descue
+12
+100000 * 0.3
+2
+t 
+13
+100000-descue
+4
+1
+58
+'estimado usuario: ',n,' el valor total a pagar es de: ',t
+13
+13
+4
+1
+38
+'anexa reserva y un descuento del 20%'
+6
+2
+6
+descue
+12
+100000 * 0.2
+1
+t
+13
+100000-descue
+4
+1
+58
+'estimado usuario: ',n,' el valor total a pagar es de: ',t
+13
+13
+13
+4
+1
+47
+'anexa reserva y adquiere un descuento del 10%'
+6
+2
+6
+descue
+11
+50000 * 0.1
+1
+t
+12
+50000-descue
+4
+1
+58
+'estimado usuario: ',n,' el valor total a pagar es de: ',t
+13
+1

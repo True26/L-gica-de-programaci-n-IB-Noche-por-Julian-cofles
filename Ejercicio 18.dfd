@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+315
+Haz un software el cual pida que inserte su edad e inserte su presupuesto si la edad es mayor o igual a 18 años y su presupuesto es mayor o igual a 50000 entonces se le dará la bienvenida al club noche y si es menor de edad entonces no podrá entrar al club, así su presupuesto sea suficiente se le negara el acceso.
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+4
+1
+24
+'inserte su presupuesto'
+5
+1
+1
+p
+7
+0
+1
+18
+e>=18 and p>=50000
+4
+1
+62
+'lo sentimos pero usted no puede acceder a nuestro club noche'
+13
+4
+1
+26
+'bienbenido al club noche'
+13
+1

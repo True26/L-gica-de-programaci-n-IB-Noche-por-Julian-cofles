@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+244
+Haz un software el cual pida que inserte el nivel de brillo de su dispositivo móvil (el máximo nivel de brillo es de 100), si el brillo es menor o igual a 30 es bajo, si es mayor a 30 es normal, si es mayor o igual a 60 o igual a 100 es alto.  
+4
+1
+53
+'inserte el nivel de brillo de su celular de 1 a 100'
+5
+1
+1
+b
+7
+1
+1
+6
+b<=30 
+4
+1
+6
+'bajo'
+13
+7
+0
+1
+14
+b>=60 or b=100
+4
+1
+8
+'normal'
+13
+4
+1
+6
+'alto'
+13
+13
+1

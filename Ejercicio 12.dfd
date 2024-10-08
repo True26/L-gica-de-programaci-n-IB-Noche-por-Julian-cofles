@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+264
+Haz un software para un club noche que pida que inserte la edad además que inserte si tiene o no pase VIP. Entonces si tiene pase VIP y su edad es mayor o igual a 18 entonces puede pasar y tener una noche disfrutable, si no es así no puede pasar a la zona VIP.    
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+4
+1
+75
+'indique con el numero 1 si tiene pase VIP y con el 2 si no tiene pase VIP'
+5
+1
+1
+r
+7
+0
+1
+13
+e>=18 and r=1
+4
+1
+36
+'no puede pasar pasar a la zona VIP'
+13
+4
+1
+27
+'puede pasar a la zona VIP'
+13
+1

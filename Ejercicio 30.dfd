@@ -1,0 +1,50 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+436
+Haz un software donde al usuario se le pida que inserte su edad y después 'inserte su saldo para pagar la boleta' (quiere ir a cine y ver Deadpool 3), si su edad es mayor o igual a 18 y su saldo es mayor o igual a 26000 entonces mostrar 'puede entrar a ver Deadpool 3' y mostrar cuanto le sobra. Si no se cumple la condición dada anteriormente mostrar 'lo sentimos pero su usted no cumple los requisitos necesarios para ver Deadpool 3'.
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+4
+1
+39
+'inserte su saldo para pagar la boleta'
+5
+1
+1
+s
+7
+0
+1
+18
+e>=18 and s>=26000
+4
+1
+83
+'lo sentimos pero su usted no cumple los requisitos necesarios para ver Deadpool 3'
+13
+4
+1
+31
+'puede entrar a ver Deadpool 3'
+6
+1
+5
+sobra
+7
+s-26000
+4
+1
+33
+'su saldo restante es de: ',sobra
+13
+1

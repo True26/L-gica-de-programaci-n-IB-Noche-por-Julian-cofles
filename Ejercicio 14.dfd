@@ -1,0 +1,92 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+428
+
+Haz un software que pida la nota de 3 tareas, y le muestre el promedio de la nota de las tareas, después muestre que si se han visto 6 clases, inserte a cuantas clases ha asistido y muestre el promedio de clases que ha asistido. Si el promedio de nota es mayor o igual a 3.0 y el promedio de asistencia es de 50% no presenta proyecto, si lo anterior dicho no se cumple perderá bien sea por fallas o por su nota menor a 3.0. 
+
+4
+1
+29
+'inserte la nota de 3 tareas'
+5
+1
+10
+n1, n2, n3
+6
+2
+4
+suma
+12
+n1 + n2 + n3
+6
+promeN
+6
+suma/3
+4
+1
+58
+'su nota final de la entrega de sus tareas es de: ',promeN
+4
+1
+64
+'si se han visto 6 clases, inserte a cuantas clases ha asistido'
+5
+1
+4
+clas
+6
+2
+5
+proce
+8
+clas*100
+6
+promeA
+7
+proce/6
+4
+1
+51
+'su promedio de clases asistido es de: ',promeA,'%'
+7
+0
+1
+26
+promeN>=3.0 and promeA>=80
+7
+0
+1
+26
+promeN>=3.0 and promeA>=50
+7
+0
+1
+24
+promeN<3.0 and promeN>=0
+4
+1
+41
+'presenta proyecto por fallas acumuladas'
+13
+4
+1
+61
+'presenta proyecto porqué su nota definitiva es menos de 3.0'
+13
+13
+4
+1
+22
+'No presenta proyecto'
+13
+13
+4
+1
+22
+'No presenta proyecto'
+13
+1

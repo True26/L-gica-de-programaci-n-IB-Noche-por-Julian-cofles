@@ -1,0 +1,47 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+315
+Haz software donde le dé la bienvenida al tráfico de drogas e inserte su edad, si su edad es mayor o igual a 25 entonces mostrar 'bienvenido al negocio' y si tiene 18 o más de 18 mostrar el siguiente aviso 'usted es responsable de sus propias acciones' si es menor de edad (<=17) entonces mostrar 'acceso denegado'.
+4
+1
+32
+'bienvenido al trafico de dogra'
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+7
+0
+1
+14
+e>=25 and e=18
+7
+0
+1
+5
+e<=17
+4
+1
+46
+'usted es responsable de sus propias acciones'
+13
+4
+1
+17
+'acceso denegado'
+13
+13
+4
+1
+23
+'bienvenido al negocio'
+13
+1

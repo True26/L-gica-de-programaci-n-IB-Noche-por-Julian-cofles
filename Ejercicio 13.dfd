@@ -1,0 +1,54 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+405
+Haz un software en el cual pida que inserte el valor de 2 productos y su edad, si el valor total por la compra de los dos productos es mayor o igual a 35000 y la edad es de 18, tendrá descuento del 5% en el valor total de la compra, mostrar cuanto debe pagar si cumple esta condición si no cumple esta condición no tendrá descuento por lo que deberá pagar el valor total de la compra de sus dos productos.
+4
+1
+33
+'inserte el valor de 2 productos'
+5
+1
+6
+v1, v2
+4
+1
+17
+'inserte su edad'
+6
+3
+4
+suma
+7
+v1 + v2
+6
+descue
+11
+suma * 0.05
+1
+t
+11
+suma-descue
+5
+1
+1
+e
+7
+0
+1
+21
+suma>= 35000 and e=18
+4
+1
+28
+'debe pagar: ',suma,' pesos'
+13
+4
+1
+60
+'tiene descuento del 5%, por lo que debe pagar: ',t,' pesos'
+13
+1

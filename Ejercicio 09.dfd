@@ -1,0 +1,93 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+418
+Haz un software que pida que inserte el color de tres pelotas (en dfd las palabras en entrada se escriben dentro de comillas '') después muestre el color que le ha asignado a cada pelota y luego inserte un valor para cada pelota, ya con los valores asignados para cada pelota con su debido color mostrar resultado de cuál es la pelota mayor junto a la información de color y si es la primera, segunda o tercer pelota. 
+6
+3
+2
+c1
+2
+''
+2
+c2
+2
+''
+2
+c3
+2
+''
+4
+1
+53
+'inserte el color de tres pelotas dentro de comillas'
+5
+1
+10
+c1, c2, c3
+4
+1
+51
+'pelota 1: ',c1,', pelota 2: ',c2,', pelota 3: ',c3
+4
+1
+35
+'inserte el valor para cada pelota'
+4
+1
+14
+'pelota 1 ',c1
+5
+1
+2
+v1
+4
+1
+14
+'pelota 2 ',c2
+5
+1
+2
+v2
+4
+1
+14
+'pelota 3 ',c3
+5
+1
+2
+v3
+4
+1
+89
+'pelota 1 ',c1,' vale: ',v1,',  pelota 2 ',c2,' vale: ',v2,',  pelota 3 ',c3,' vale: ',v3
+7
+0
+1
+15
+v1>v2 and v1>v3
+7
+0
+1
+15
+v2>v3 and v2>v1
+4
+1
+58
+'es mayor la pelota de color: ',c3,' con un valor de: ',v3
+13
+4
+1
+58
+'es mayor la pelota de color: ',c2,' con un valor de: ',v2
+13
+13
+4
+1
+58
+'es mayor la pelota de color: ',c1,' con un valor de: ',v1
+13
+1

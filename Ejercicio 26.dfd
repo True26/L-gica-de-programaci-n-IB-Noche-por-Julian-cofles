@@ -1,0 +1,106 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+588
+Haz un software donde informe que 'precio del mango: 3200' luego diga que 'inserte cuantos mangos va a comprar' si usted compra la docena mostrar 'usted ha comprado la docena, por lo que tendrá descuento del 22%' y mostrar valor total a pagar, y si ha comprado más de la docena mostrar 'usted ha comprado más de la docena, por lo que tendrá descuento del 26%' luego mostrar valor total a pagar. Si usted compra 13 o 14 mangos mostrar que 'ha adquirido un descuento especial del 10%' por otra parte, si compra de 1 a 11 mangos no tendrá descuentos solo pagará el valor total (mangos*3200).
+4
+1
+24
+'precio del mango: 3200'
+4
+1
+37
+'inserte cuantos mangos va a comprar'
+5
+1
+1
+m
+6
+1
+4
+prec
+8
+3200 * m
+7
+0
+1
+10
+prec=38400
+7
+0
+1
+20
+prec>38400 and m>=15
+7
+0
+1
+27
+prec>38400 and m=13 or m=14
+4
+1
+25
+'total a pagar de: ',prec
+13
+6
+2
+6
+descue
+10
+prec * 0.1
+1
+t
+11
+prec-descue
+4
+1
+44
+'ha adquirido un descuento especial del 10%'
+4
+1
+22
+'total a pagar de: ',t
+13
+13
+6
+2
+6
+descue
+11
+prec * 0.26
+1
+t
+11
+prec-descue
+4
+1
+73
+'usted ha comprado más de la docena, por lo que tendra descuento del 26%'
+4
+1
+22
+'total a pagar de: ',t
+13
+13
+6
+2
+6
+descue
+11
+prec * 0.22
+1
+t
+11
+prec-descue
+4
+1
+66
+'usted ha comprado la docena, por lo que tendra descuento del 22%'
+4
+1
+22
+'total a pagar de: ',t
+13
+1

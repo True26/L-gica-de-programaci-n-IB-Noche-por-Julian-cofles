@@ -1,0 +1,125 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+708
+Haz un software donde informa que usted debe 50000 en la tienda de don pepe y le pida que consigne dinero a su cuenta nequi para poder pagar su deuda y después de haber consignado saldo a su cuenta pedir que inserte el valor a pagar de la tienda de don pepe, si al consignar saldo al nequi y es insuficiente para pagar la deuda mostrar 'su saldo en su nequi sigue sin ser suficiente para pagar su deuda' aparte si es el caso de que consigno lo suficiente a su cuenta pero paga menos de lo que debe pagar mostrar usted debe pagar 50000 y ha pagado: x aún le falta, exactamente: x (las x representa la respuesta que debe aparecer). Si consigno lo suficiente y paga su deuda mostrar 'su deuda ha sido saldada'. 
+6
+1
+5
+tpepe
+5
+50000
+4
+1
+43
+'usted debe 50000 en la tienda de don pepe'
+4
+1
+61
+'consigne dinero a su cuenta nequi para poder pagar su deuda'
+5
+1
+4
+cons
+6
+1
+5
+saldo
+4
+cons
+4
+1
+51
+'inserte el valor a pagar de la tienda de don pepe'
+5
+1
+2
+vp
+6
+1
+2
+t2
+8
+tpepe-vp
+7
+0
+1
+25
+cons<50000 and cons=50000
+7
+0
+1
+11
+cons>50000 
+7
+0
+1
+69
+(cons<50000 and vp<tpepe) or (cons<50000 and vp<tpepe) or (vp>=50000)
+7
+0
+1
+41
+(cons>=50000 or cons<50000 and vp<50000) 
+4
+1
+26
+'su deuda ha sido saldada'
+13
+4
+1
+75
+'usted debe pagar 50000 y ha pagado: ',vp,' aun le falta, exactamente: ',t2
+4
+1
+87
+' pague exactamente lo que debe si sabe que el valor que consigno es suficiente: ',cons
+13
+13
+7
+0
+1
+25
+cons>=50000 and vp>=50000
+4
+1
+62
+'su saldo de consignacion es insuficiente para pagar la deuda'
+13
+4
+1
+26
+'su deuda ha sido saldada'
+13
+13
+13
+7
+0
+1
+52
+cons=50000 and cons<50000 or cons>50000 and vp<50000
+4
+1
+26
+'su deuda ha sido saldada'
+13
+4
+1
+75
+'usted debe pagar 50000 y ha pagado: ',vp,' aun le falta, exactamente: ',t2
+4
+1
+86
+'pague exactamente lo que debe si sabe que el valor que consigno es suficiente: ',cons
+13
+13
+13
+4
+1
+67
+'su saldo en su nequi sigue sin ser suficiente para pagar su deuda'
+13
+1

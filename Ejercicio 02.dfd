@@ -1,0 +1,76 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+520
+Haz un software donde inserte la temperatura de su dispositivo móvil y le indique el estado de la temperatura. Es normal, de 0 a 35 grados centígrados, la mejor temperatura de funcionamiento es de 22 grados centígrados (perfecta), y la temperatura extrema de funcionamiento es de 45 grados centígrados en adelante o desde los -20 hasta los menos infinito grados centígrados es extrema y desde los 36 a 44 grados es una temperatura irregular y desde los -1 a -19 grados centígrados también es una temperatura irregular.  
+4
+1
+48
+'inserte la temperatura de su dispositivo movil'
+5
+1
+1
+t
+7
+0
+1
+14
+(t=0 or t<=35)
+7
+0
+1
+6
+ t>=45
+4
+1
+23
+'temperatura irregular'
+13
+4
+1
+21
+'temperatura extrema'
+13
+13
+7
+0
+1
+4
+t=22
+7
+0
+1
+5
+t<=-1
+4
+1
+20
+'temperatura normal'
+13
+7
+0
+1
+6
+t<=-20
+4
+1
+23
+'temperatura irregular'
+13
+4
+1
+21
+'temperatura extrema'
+13
+13
+13
+4
+1
+22
+'temperatura perfecta'
+13
+13
+1

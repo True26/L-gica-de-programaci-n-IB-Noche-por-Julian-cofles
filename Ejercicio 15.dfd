@@ -1,0 +1,56 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+429
+
+Haz un software el cual inserte los días que ha estado de vacaciones teniendo en cuenta que dieron 30 días de vacaciones, si se inserte más de 30 días mostrar 'se han acabado las vacaciones' y si inserta que lleva 30 días mostrar que 'le queda un día' ósea el ultimo día. Si es el caso de que inserte 15 días mostrar que le quedan 15 días de vacaciones, y si inserta menos de 15 o más de 15 días mostrar que siga disfrutando.
+
+4
+1
+46
+'inserte los días que ha estado en vacaciones'
+5
+1
+1
+d
+7
+0
+1
+21
+d>30 and d=15 or d>30
+7
+0
+1
+4
+d=30
+7
+0
+1
+33
+d>=1 and d<=14 or d>=16 and d<=29
+4
+1
+33
+'le quedan 15 días de vacaciones'
+13
+4
+1
+18
+'siga disfrutando'
+13
+13
+4
+1
+17
+'le queda un día'
+13
+13
+4
+1
+31
+'se han acabado las vacaciones'
+13
+1

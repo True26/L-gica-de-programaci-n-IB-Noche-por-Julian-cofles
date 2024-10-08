@@ -1,0 +1,77 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+425
+Hacer un software el cual pida que 'inserte el valor de un producto' teniendo en cuenta que su saldo es de 10000. Entonces, si el valor del producto es menor al presupuesto y es igual a 5000 mostrar que 'adquiere descuento del 4% en su compra', y si el valor del producto es mayor al saldo mostrar 'saldo insuficiente' y si el valor del producto es menor o igual a 10000 mostrar compra exitosa además mostrar cuanto le sobra.
+6
+1
+11
+presupuesto
+5
+10000
+4
+1
+33
+'inserte el valor de un producto'
+5
+1
+2
+p1
+7
+0
+1
+26
+p1<presupuesto and p1=5000
+7
+0
+1
+15
+p1<=presupuesto
+4
+1
+26
+'presupuesto insuficiente'
+13
+6
+1
+5
+saldo
+14
+presupuesto-p1
+4
+1
+15
+'copra exitosa'
+4
+1
+33
+'de 10000 ahora le queda: ',saldo
+13
+13
+6
+3
+6
+descue
+9
+p1 * 0.04
+1
+t
+9
+p1-descue
+5
+saldo
+13
+presupuesto-t
+4
+1
+40
+'adquiere descuento del 4% en su compra'
+4
+1
+44
+'ahora debe pagar: ',t,' y le queda: ',saldo
+13
+1

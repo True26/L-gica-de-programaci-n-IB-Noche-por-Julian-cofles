@@ -1,0 +1,57 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+802
+Haz un software que aconseje y ajuste el saldo del usuario al precio del carro que puede comprar si su saldo es de 1200000. Entonces haz que pida que inserte 2 precios de carros y ajuste el saldo. Por lo que de las siguientes respuestas: si bien puede comprar un solo coche pero puede elegir si comprar el primer coche o el segundo. Por lo que su saldo le alcanza para comprar alguno de los dos, además que le aconseje que 'usted decide según lo que quiere gastar de su saldo y lo que necesita de un coche en cuestión de especificaciones'. Por otra parte, si es el caso que solo le alcanza para comprar el primer coche mostrar 'según su saldo solo le alcanza para comprar el primer coche' y siendo el caso contrario mostrar 'según su saldo no le alcanza para comprar el primer coche pero si el segundo'
+6
+1
+1
+s
+7
+1200000
+4
+1
+29
+'inserte 2 precios de carros'
+5
+1
+6
+p1, p2
+4
+1
+70
+'ajustando el saldo del usuario al precio del carro que puede comprar'
+7
+0
+1
+5
+p1<=s
+4
+1
+127
+'según su saldo no le alcanza para comprar el primer coche de: ',p1,' pero puede comprar el segundo coche con un costo de: ',p2
+13
+7
+0
+1
+15
+p1<=s and p2<=s
+4
+1
+69
+'según su saldo solo le alcanza para comprar el primer coche de: ',p1
+13
+4
+1
+165
+'si bien puede comprar un solo coche pero puede elegir si comprar el primer coche con un costo de: ',p1,' o elegir si compra el segundo coche, con un costo de: ',p2 
+4
+1
+115
+'usted decide segun lo que quiere gastar de su saldo y lo que necesita de un coche en cuestion de especificaciones'
+13
+13
+1

@@ -1,0 +1,97 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+427
+Haz un software el cual pida que inserte el valor de 3 productos y después decir cuál es el producto mayor de los 3, si el producto 1 es mayor tendrá un descuento del 15%, si el producto 2 es mayor tendrá un descuento del 20%, si el producto 3 es mayor tendrá un descuento del 10%. Mostrar valor total a pagar para el número mayor que sea. (Se le anexa el descuento al número mayor y se suma más los otros dos valores menores).
+4
+1
+33
+'inserte el valor de 3 productos'
+5
+1
+10
+p1, p2, p3
+7
+0
+1
+15
+p1>p2 and p1>p3
+7
+0
+1
+15
+p2>p1 and p2>p3
+4
+1
+64
+'el producto 3 es mayor, por lo que tendra un descuento del 10%'
+6
+3
+6
+descue
+8
+p3 * 0.1
+2
+t1
+9
+p3-descue
+2
+t2
+12
+p1 + p2 + t1
+4
+1
+29
+'valor total a pagar de: ',t2
+13
+4
+1
+64
+'el producto 2 es mayor, por lo que tendra un descuento del 20%'
+6
+3
+6
+descue
+8
+p2 * 0.2
+2
+t1
+9
+p2-descue
+2
+t2
+12
+p1 + p2 + t1
+4
+1
+29
+'valor total a pagar de: ',t2
+13
+13
+4
+1
+64
+'el producto 1 es mayor, por lo que tendra un descuento del 15%'
+6
+3
+6
+descue
+9
+p1 * 0.15
+2
+t1
+9
+p1-descue
+2
+t2
+12
+p1 + p2 + t1
+4
+1
+29
+'valor total a pagar de: ',t2
+13
+1

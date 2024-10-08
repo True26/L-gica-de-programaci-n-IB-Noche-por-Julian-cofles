@@ -1,0 +1,55 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+438
+Haz un software donde muestre del 1 al 5 al azar el número de asesinatos diarios que se dan en el norte de Bogotá y en el sur de Bogotá, si en el norte y en el sur se dan la misma cantidad de asesinatos, mostrar 'en el SUR y NORTE se registran los mismos asesinatos', y si en el sur se dan más asesinatos mostrar 'en el SUR se registran más asesinatos que en el norte' y viceversa 'en el NORTE se registran más asesinatos que en el sur'. 
+6
+1
+1
+n
+11
+1+random(5)
+4
+1
+61
+'en el NORTE de Bogotá se registran ',n,' asesinatos diarios'
+6
+1
+2
+n1
+11
+1+random(5)
+4
+1
+60
+'en el SUR de Bogotá se registran ',n1,' asesinatos diarios'
+7
+0
+1
+25
+(n=n1 and n1>n) or (n1=n)
+7
+1
+1
+4
+n1<n
+4
+1
+55
+'en el NORTE se registran más asesinatos que en el sur'
+13
+4
+1
+55
+'en el SUR se registran más asesinatos que en el norte'
+13
+13
+4
+1
+54
+'en el SUR y NORTE se registran los mismos asesinatos'
+13
+1

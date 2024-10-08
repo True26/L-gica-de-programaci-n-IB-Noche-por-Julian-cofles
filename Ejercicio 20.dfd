@@ -1,0 +1,89 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+570
+
+Haz un software para una tienda de armas donde pida que inserte su edad. Si tiene de 18 a 29 años le muestre que 'inserte el valor del arma que quiere comprar' y después le anexe un impuesto del 18% luego mostrar valor total a pagar. Si tiene 30 o más de 30 mostrar que 'ha adquirido un descuento del 28% en la compra de cualquier arma' después le pida que 'inserte el valor del arma que quiere comprar' por ultimo mostrar valor total a pagar. Si es el caso de que su edad es menor o igual a 17 entonces mostrar 'usted es menor de edad, prohibido la venta de armas'.
+
+4
+1
+9
+'Armería'
+4
+1
+17
+'inserte su edad'
+5
+1
+1
+e
+7
+0
+1
+15
+e>=18 and e<=29
+7
+1
+1
+5
+e>=30
+4
+1
+66
+'ha adquirido un descuento del 28% en la compra de cualquier arma'
+4
+1
+46
+'inserte el valor del arma que quiere comprar'
+5
+1
+1
+a
+6
+2
+6
+descue
+8
+a * 0.28
+1
+t
+8
+a-descue
+4
+1
+22
+'valor a pagar de: ',t
+13
+4
+1
+53
+'usted es menor de edad, prohibido la venta de armas'
+13
+13
+4
+1
+46
+'inserte el valor del arma que quiere comprar'
+5
+1
+1
+a
+6
+2
+7
+impuest
+8
+a * 0.18
+1
+t
+11
+a + impuest
+4
+1
+22
+'valor a pagar de: ',t
+13
+1

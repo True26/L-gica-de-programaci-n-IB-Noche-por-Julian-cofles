@@ -1,0 +1,87 @@
+ Dfd (c)
+1
+1
+1
+0
+1
+426
+Haz un software de un mini juego que se llamara 'juego al azar' en este juego dos jugadores deberán insertar un número y mediante la función random tendrán que adivinar el número que saldrá de la máquina del 1 al 3, si logra uno de los dos jugadores adivinar el numero pues ese jugador ganara y si los dos lo adivinan será un empate y si es el caso de que ninguno lo adivine pues mostrar 'ninguno de los jugadores ha ganado'. 
+4
+1
+15
+'juego al azar'
+4
+1
+74
+'adivina el número que saldra del 1 al 3, si lo logras ganaras o perderas'
+4
+1
+50
+'inserta el número que crees que saldra jugador 1'
+5
+1
+2
+n1
+4
+1
+50
+'inserta el número que crees que saldra jugador 2'
+5
+1
+2
+n2
+6
+1
+1
+n
+11
+1+random(3)
+4
+1
+1
+n
+7
+0
+1
+12
+n1=n or n2=n
+7
+0
+1
+15
+n1=n1 and n2=n2
+13
+4
+1
+36
+'ninguno de los jugadores ha ganado'
+13
+13
+7
+0
+1
+13
+n1=n and n2=n
+7
+1
+1
+4
+n2=n
+4
+1
+21
+'jugador 2 ha ganado'
+13
+4
+1
+21
+'jugador 1 ha ganado'
+13
+13
+4
+1
+51
+'empate, los dos jugadores han adivinado el número'
+13
+13
+1
